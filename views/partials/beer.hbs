@@ -1,0 +1,27 @@
+<div class=beer>
+    <div class="row" id="numberone">
+        <div class="col-md-4">
+        <img src={{image_url}} id="beerImg" alt="image of {{name}} bottle"/>
+    </div>
+    <div  class="col-md-8">
+        <div class="nameBottle">
+            <h3>{{name}}</h3>
+            <p>{{tagline}}</p>
+        </div>
+         <div class="description">
+            <p>{{description}}</p>
+        </div>
+         <div class="bullList">
+            <h4>Food Pairing</h4>
+            <ul>
+                 {{#each food_pairing}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+         <div class ="brewTips">
+            {{brewers_tips}}
+        </div>
+    </div>
+    </div>
+</div>

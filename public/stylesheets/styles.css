@@ -5,3 +5,115 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#beerMug{
+   height: 350px;
+   margin-top:2%;
+    margin-left: 37%;
+}
+
+.beerBlock {
+    columns: auto;
+}
+
+.thing {
+    display: flex;
+    align: center;
+}
+
+.row{
+    margin-left:1%;
+}
+
+#numberone{
+   
+    margin-left: 10%;
+    margin-top:5%;
+    width: 800px;
+
+}
+
+#eachBeer {
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+
+#beerImg {
+    height:350px;
+    padding-top:10%;
+    padding-left:25%;
+}
+
+#beerImg1 {
+    height:150px;
+    padding-top:10%;
+    padding-left:25%;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#parciaal{
+    font-size: 15px;
+}
+
+a {
+    vertical-align: sub;
+    background-color: #2081c3;
+    color:#f7f9f9;
+    text-align: center;
+}
+
+.button {
+    border-radius: 15px;
+    background-color: #2081c3;
+    color:#f7f9f9;
+    height: 50px;
+    width:250px;
+    text-align: center;
+}
+
+
+.fbuttonrow {
+    margin-top: 1%;
+    margin-left:38%;
+
+}
+
+.sbuttonrow {
+margin-top: 1%;
+margin-left:38%;
+}
+
+.beerBlock {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav {
+    background-color: #2081c3;
+    color: #f7f9f9;
+}
+
+.nav-link {
+    color: #f7f9f9;
+}
+
+.footer {
+    position: absolute;
+    margin-top: 3%;
+    background-color: #0a2c42;
+    color: #f7f9f9;
+    height: 30px;
+    width: 100%;
+   
+}
